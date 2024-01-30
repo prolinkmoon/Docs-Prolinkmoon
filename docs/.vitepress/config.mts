@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const posts = await (await fetch('https://prolinkmoon.github.io/101')).json()
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Prolinkmoon",
@@ -54,12 +56,11 @@ export default defineConfig({
     ],
 
 
-    logo: '../imgAssets/logo.png',
+    logo: 'https://avatars.githubusercontent.com/u/52670229?v=4',
 
     search: {
       provider: 'local'
     },
-
   }
 })
 
