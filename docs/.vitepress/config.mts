@@ -1,9 +1,9 @@
 import { defineConfig } from 'vitepress'
 
-const posts = await (await fetch('https://prolinkmoon.github.io/101')).json()
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'en-US',
   title: "Prolinkmoon",
   description: "Blockchain Validator, Node Operator & Infra-service",
   themeConfig: {
