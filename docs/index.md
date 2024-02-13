@@ -8,14 +8,14 @@ hero:
   tagline: Embrace your knowledge with us!
   image:
     src: "/landing-hero.png"
-    alt: VitePress
+    alt: Prolinkmoon
   actions:
     - theme: brand
       text: Get Started
       link: /welcome
     - theme: alt
       text: Back to-hub
-      link: https://prolinkmoon.com
+      link: https://portal.prolinkmoon.com/hub#lfg
 
 features:
   - title: Boost-Knowledge

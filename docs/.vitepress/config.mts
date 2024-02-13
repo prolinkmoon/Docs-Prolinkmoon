@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  title: "Prolinkmoon",
   head: [['link', { rel: 'icon', href: '/101/favicon.ico' }]],
+  title: 'Prolinkmoon',
   description: "Blockchain Validator, Node Operator & Infra-service",
   base: '/101/',
   themeConfig: {
@@ -18,24 +18,24 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: 'Example',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      },
+      // {
+      //   text: 'Example',
+      //   items: [
+      //     { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     { text: 'Runtime API Examples', link: '/api-examples' }
+      //   ]
+      // },
 
       {
         text: 'Welcome', link: '/welcome',
         collapsed: false,
         items: [
-          { text: 'Overview', link: '/markdown-examples' }
+          { text: 'Overview', link: '/overview' }
         ]
       },
 
       {
-        text: 'Learning Center', link: '/learning-center',
+        text: 'Learning Center', link: '/learning-center/learning-center',
         collapsed: true,
         items: [
           { text: 'Preapre your knowledge', link: '' },
