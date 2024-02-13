@@ -85,5 +85,3 @@ This is a details block.
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
 
 # Test Image
-
-<img src="/imgAssets/logo.png" alt="">

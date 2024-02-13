@@ -7,7 +7,7 @@ hero:
   text: "Blockchain Validator, Node Operator & Infra-service"
   tagline: Embrace your knowledge with us!
   image:
-    src: "https://avatars.githubusercontent.com/u/52670229?v=4"
+    src: "/landing-hero.png"
     alt: VitePress
   actions:
     - theme: brand

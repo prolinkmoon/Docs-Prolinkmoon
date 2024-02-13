@@ -5,6 +5,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'en-US',
   title: "Prolinkmoon",
+  head: [['link', { rel: 'icon', href: '/101/favicon.ico' }]],
   description: "Blockchain Validator, Node Operator & Infra-service",
   base: '/101/',
   themeConfig: {
@@ -71,7 +72,7 @@ export default defineConfig({
     ],
 
 
-    logo: 'https://avatars.githubusercontent.com/u/52670229?v=4',
+    logo: 'logo.png',
 
     search: {
       provider: 'local'
