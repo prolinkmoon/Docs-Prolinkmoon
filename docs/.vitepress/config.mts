@@ -12,8 +12,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/welcome' },
-      { text: 'Prolinkmoon-Portal', link: 'https://google.com' },
-      { text: 'Prolinkmoon-Hub', link: 'https://google.com' }
+      { text: 'Prolinkmoon-Portal', link: 'https://portal.prolinkmoon.com' },
+      { text: 'Prolinkmoon-Hub', link: 'https://portal.prolinkmoon.com/hub#lfg' }
     ],
 
     sidebar: [
@@ -34,7 +34,7 @@ export default defineConfig({
       },
 
       {
-        text: 'Learning Center',
+        text: 'Learning Center', link: '/learning-center',
         collapsed: true,
         items: [
           { text: 'Preapre your knowledge', link: '' },
@@ -48,12 +48,26 @@ export default defineConfig({
           { text: 'What is Docker?', link: '' },
           { text: 'When and Why you should use Docker?', link: '' }
         ]
+      },
+
+      {
+        text: 'Avail',
+        collapsed: true,
+        items: [
+          { text: 'clash of nodes', link: '/clash-of-nodes' },
+          { text: 'Build Madara KarnotAppchain', link: '/clash-of-nodes' },
+          { text: 'Build Rollapp ( Avail as DA)', link: '/clash-of-nodes' },
+          { text: 'Run light-node', link: '/clash-of-nodes' }
+        ]
       }
+
 
     ],
 
     socialLinks: [
+      { icon: 'twitter', link: 'https://github.com/vuejs/vitepress' },
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      
     ],
 
 
