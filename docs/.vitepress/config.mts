@@ -55,10 +55,12 @@ export default defineConfig({
         text: 'Avail',
         collapsed: true,
         items: [
-          { text: 'clash of nodes', link: '/clash-of-nodes' },
-          { text: 'Build Madara KarnotAppchain', link: '/clash-of-nodes' },
-          { text: 'Build Rollapp ( Avail as DA)', link: '/clash-of-nodes' },
-          { text: 'Run light-node', link: '/clash-of-nodes' }
+          { text: 'Project Overview', link: 'avail/project-overview' },
+          { text: 'Clash-Of-Nodes', link: 'avail/clash-of-nodes' },
+          { text: 'Run light-node', link: 'avail/light-node' },
+          { text: 'Build Madara KarnotAppchain', link: 'avail/madara-karnot-Appchain' },
+          { text: 'Build Rollapp ( Avail as DA)', link: 'avail/build-rollapp' }
+          
         ]
       }
 
@@ -66,8 +68,8 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'twitter', link: 'https://github.com/vuejs/vitepress' },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'twitter', link: 'https://twitter.com/ProlinkMoon' },
+      { icon: 'github', link: 'https://github.com/prolinkmoon' }
       
     ],
 
