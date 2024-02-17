@@ -55,11 +55,31 @@ export default defineConfig({
         text: 'Avail',
         collapsed: true,
         items: [
-          { text: 'Project Overview', link: 'avail/project-overview' },
-          { text: 'Clash-Of-Nodes', link: 'avail/clash-of-nodes' },
-          { text: 'Run light-node', link: 'avail/light-node' },
-          { text: 'Build Madara KarnotAppchain', link: 'avail/madara-karnot-Appchain' },
-          { text: 'Build Rollapp ( Avail as DA)', link: 'avail/build-rollapp' }
+          { text: 'Project Overview', link: 'list/avail/project-overview' },
+          { text: 'Clash-Of-Nodes', link: 'list/avail/clash-of-nodes' },
+          { text: 'Run light-node', link: 'list/avail/light-node' },
+          { text: 'Build Madara KarnotAppchain', link: 'list/avail/madara-karnot-Appchain' },
+          { text: 'Build Rollapp ( Avail as DA)', link: 'list/avail/build-rollapp' }
+          
+        ]
+      },
+
+      {
+        text: 'dymension',
+        collapsed: true,
+        items: [
+          { text: 'Project Overview', link: 'list/dymension/project-overview' },
+          { text: 'Fullnode', link: 'list/dymension/' },
+          
+        ]
+      },
+
+      {
+        text: 'Subsquid',
+        collapsed: true,
+        items: [
+          { text: 'Project Overview', link: 'list/subsquid/project-overview' },
+          { text: 'Fullnode', link: 'list/subsquid/' },
           
         ]
       }
