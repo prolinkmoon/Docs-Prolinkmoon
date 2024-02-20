@@ -8,6 +8,7 @@ export default defineConfig({
   title: 'Prolinkmoon',
   description: "Blockchain Validator, Node Operator & Infra-service",
   base: '/101/',
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
