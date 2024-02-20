@@ -75,6 +75,15 @@ export default defineConfig({
       },
 
       {
+        text: 'Dusk',
+        collapsed: true,
+        items: [
+          { text: 'ITN-node', link: 'list/dusk/ITN-node' }
+          
+        ]
+      },
+
+      {
         text: 'Subsquid',
         collapsed: true,
         items: [
