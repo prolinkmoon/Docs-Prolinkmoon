@@ -57,11 +57,14 @@ service rusk start
 
 _this command will run your node & doesn't return anything_
 
-\#You can check (log) if it indeed is by running:
+###### \#You can check (log) if it indeed is by running:
 
 ```bash
 grep "block accepted" /var/log/rusk.log
 ```
+
+Similiar Output:
+![Output Log](https://api.prolinkmoon.com/dusk-ITN-Node.png)
 
 It is best to wait until your node is synced up. You can find the latest block height on [our explorer](https://explorer.dusk.network/).
 
