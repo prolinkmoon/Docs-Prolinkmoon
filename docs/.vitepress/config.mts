@@ -59,6 +59,7 @@ export default defineConfig({
           { text: 'Project Overview', link: 'list/avail/project-overview' },
           { text: 'Clash-Of-Nodes', link: 'list/avail/clash-of-nodes' },
           { text: 'Run light-node', link: 'list/avail/light-node' },
+          { text: 'Fullnode', link: 'list/avail/fullnode' },
           { text: 'Build Madara KarnotAppchain', link: 'list/avail/madara-karnot-Appchain' },
           { text: 'Build Rollapp ( Avail as DA)', link: 'list/avail/build-rollapp' }
           

@@ -10,7 +10,7 @@
 
 ## Preparation
 
-- Join [Dusk Discord]() to get faucet access. _\*To run a node need 1000 tDUSK which you can get from the faucet and/or as a reflection of your staked ERC20 DUSK._
+- Join [Dusk Discord](https://discord.gg/dusknetwork) to get faucet access. _\*To run a node need 1000 tDUSK which you can get from the faucet and/or as a reflection of your staked ERC20 DUSK._
 - For more detail / information See official [ANN Dusk ITN-node](https://dusk.network/news/ITN-set-up/)
 
 ## Let's Get Started

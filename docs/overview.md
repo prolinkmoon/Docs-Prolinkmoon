@@ -12,15 +12,15 @@ We are small-organization. We very enthusiast about Crypto world both of tech or
 
 ## Table of Contents
 
-- [Welcome](#about)
+- [Welcome](welcome)
 - [Overview](#overview)
 - [Learning Center](learning-center/learning-center) \* _Basic to become node / validator operator / provide blockchain-infra_
 
-#### List all guide Node / Validator :
+<!-- #### List all guide Node / Validator :
 
 - [Avail](#usage)
 - [Celestia](#contributing)
-- [License](#license)
+- [License](#license) -->
 
 <!-- ## Features
 
