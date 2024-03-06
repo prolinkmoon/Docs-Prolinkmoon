@@ -19,9 +19,9 @@ hero:
 
 features:
   - title: Boost-Knowledge
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: ..
   - title: Interact with-us
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: ..
   - title: Maximize potential of blockchain
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: ..
 ---

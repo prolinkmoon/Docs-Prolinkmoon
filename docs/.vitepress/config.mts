@@ -4,10 +4,9 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'en-US',
-  head: [['link', { rel: 'icon', href: '/101/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   title: 'Prolinkmoon',
   description: "Blockchain Validator, Node Operator & Infra-service",
-  base: '/101/',
   ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -67,11 +66,21 @@ export default defineConfig({
       },
 
       {
+        text: 'Espresso',
+        collapsed: true,
+        items: [
+          { text: 'Project Overview', link: 'list/espresso/project-overview' },
+          { text: 'Node', link: 'list/espresso/node' }
+          
+        ]
+      },
+
+      {
         text: 'dymension',
         collapsed: true,
         items: [
           { text: 'Project Overview', link: 'list/dymension/project-overview' },
-          { text: 'Fullnode', link: 'list/dymension/' },
+          { text: 'Fullnode (mainnet)', link: 'list/dymension/node' },
           
         ]
       },
@@ -90,7 +99,7 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Project Overview', link: 'list/subsquid/project-overview' },
-          { text: 'Fullnode', link: 'list/subsquid/' },
+          { text: 'node //worker', link: 'list/subsquid/node' },
           
         ]
       }
@@ -105,7 +114,7 @@ export default defineConfig({
     ],
 
 
-    logo: 'logo.png',
+    logo: 'logo.svg',
 
     search: {
       provider: 'local'
