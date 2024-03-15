@@ -6,4 +6,5 @@ npm run docs:build
 systemctl start docs-prolinkmoon
 systemctl daemon-reload
 systemctl restart docs-prolinkmoon
-sleep 1h # Waits 5 hours.
+sleep 1h # Waits 1 hours.
+systemctl restart update-docs-prolinkmoon
