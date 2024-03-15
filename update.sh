@@ -5,4 +5,5 @@ npm ci
 npm run docs:build
 systemctl start docs-prolinkmoon
 systemctl daemon-reload
-sudo apt update
+systemctl restart docs-prolinkmoon
+done
